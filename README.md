@@ -1,1 +1,1 @@
-# net-dns
+# net-dns practice
