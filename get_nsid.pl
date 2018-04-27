@@ -20,9 +20,11 @@ my $resolver = Net::DNS::Resolver->new(
 my $packet = new Net::DNS::Packet("$qname", "$type");
 
 my $rr = new Net::DNS::RR(
-        type    => 'OPT',
-        size    => 4960,
-        option => [ 'NSID' => '' ],
+        name            => "",
+        type            => "OPT",
+        class           => 4960,
+        optioncode      => 3,
+        optiondata      => 0,
 );
 
 $packet->push(additional => $rr);
