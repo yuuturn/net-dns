@@ -7,5 +7,5 @@ and print NSID from DNS server's reply.
 
 ## atlas_buf_decode.pl
 ### usage
-perl atlas_buf_decode.pl
+perl atlas_buf_decode.pl  
 <paste base64 encoded ABUF/QBUF and ENTER>
