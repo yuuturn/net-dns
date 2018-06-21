@@ -9,3 +9,7 @@ and print NSID from DNS server's reply.
 ### usage
 perl atlas_buf_decode.pl  
 <paste base64 encoded ABUF/QBUF and ENTER>
+
+see also  
+https://atlas.ripe.net/docs/data_struct/  
+https://atlas.ripe.net/docs/code/#decoding_dns_abuf
